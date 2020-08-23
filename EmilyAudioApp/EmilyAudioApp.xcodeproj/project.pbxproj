@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0693AEA824F3219000908EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0693AEA724F3219000908EC6 /* AppDelegate.swift */; };
+		0693AEAA24F3219000908EC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0693AEA924F3219000908EC6 /* SceneDelegate.swift */; };
+		0693AEAC24F3219000908EC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0693AEAB24F3219000908EC6 /* ViewController.swift */; };
+		0693AEAF24F3219000908EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0693AEAD24F3219000908EC6 /* Main.storyboard */; };
+		0693AEB224F3219000908EC6 /* EmilyAudioApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0693AEB024F3219000908EC6 /* EmilyAudioApp.xcdatamodeld */; };
+		0693AEB424F3219100908EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0693AEB324F3219100908EC6 /* Assets.xcassets */; };
+		0693AEB724F3219100908EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0693AEB524F3219100908EC6 /* LaunchScreen.storyboard */; };
+		0693AEC224F3219100908EC6 /* EmilyAudioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0693AEC124F3219100908EC6 /* EmilyAudioAppTests.swift */; };
+		0693AECD24F3219100908EC6 /* EmilyAudioAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0693AECC24F3219100908EC6 /* EmilyAudioAppUITests.swift */; };
+		0693AEDB24F321AD00908EC6 /* download.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0693AEDA24F321AD00908EC6 /* download.jpg */; };
+		0693AEDD24F3260600908EC6 /* open.spotify.com:episode:6smn0qj891TrZlsKJqtNJd.webloc in Resources */ = {isa = PBXBuildFile; fileRef = 0693AEDC24F3260600908EC6 /* open.spotify.com:episode:6smn0qj891TrZlsKJqtNJd.webloc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0693AEBE24F3219100908EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0693AE9C24F3219000908EC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0693AEA324F3219000908EC6;
+			remoteInfo = EmilyAudioApp;
+		};
+		0693AEC924F3219100908EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0693AE9C24F3219000908EC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0693AEA324F3219000908EC6;
+			remoteInfo = EmilyAudioApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0693AEA424F3219000908EC6 /* EmilyAudioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmilyAudioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0693AEA724F3219000908EC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0693AEA924F3219000908EC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0693AEAB24F3219000908EC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0693AEAE24F3219000908EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0693AEB124F3219000908EC6 /* EmilyAudioApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmilyAudioApp.xcdatamodel; sourceTree = "<group>"; };
+		0693AEB324F3219100908EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0693AEB624F3219100908EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0693AEB824F3219100908EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0693AEBD24F3219100908EC6 /* EmilyAudioAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmilyAudioAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0693AEC124F3219100908EC6 /* EmilyAudioAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmilyAudioAppTests.swift; sourceTree = "<group>"; };
+		0693AEC324F3219100908EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0693AEC824F3219100908EC6 /* EmilyAudioAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmilyAudioAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0693AECC24F3219100908EC6 /* EmilyAudioAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmilyAudioAppUITests.swift; sourceTree = "<group>"; };
+		0693AECE24F3219100908EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0693AEDA24F321AD00908EC6 /* download.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpg; sourceTree = "<group>"; };
+		0693AEDC24F3260600908EC6 /* open.spotify.com:episode:6smn0qj891TrZlsKJqtNJd.webloc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "open.spotify.com:episode:6smn0qj891TrZlsKJqtNJd.webloc"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0693AEA124F3219000908EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0693AEBA24F3219100908EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0693AEC524F3219100908EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0693AE9B24F3219000908EC6 = {
+			isa = PBXGroup;
+			children = (
+				0693AEA624F3219000908EC6 /* EmilyAudioApp */,
+				0693AEC024F3219100908EC6 /* EmilyAudioAppTests */,
+				0693AECB24F3219100908EC6 /* EmilyAudioAppUITests */,
+				0693AEA524F3219000908EC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0693AEA524F3219000908EC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0693AEA424F3219000908EC6 /* EmilyAudioApp.app */,
+				0693AEBD24F3219100908EC6 /* EmilyAudioAppTests.xctest */,
+				0693AEC824F3219100908EC6 /* EmilyAudioAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0693AEA624F3219000908EC6 /* EmilyAudioApp */ = {
+			isa = PBXGroup;
+			children = (
+				0693AEA724F3219000908EC6 /* AppDelegate.swift */,
+				0693AEA924F3219000908EC6 /* SceneDelegate.swift */,
+				0693AEAB24F3219000908EC6 /* ViewController.swift */,
+				0693AEAD24F3219000908EC6 /* Main.storyboard */,
+				0693AEDC24F3260600908EC6 /* open.spotify.com:episode:6smn0qj891TrZlsKJqtNJd.webloc */,
+				0693AEDA24F321AD00908EC6 /* download.jpg */,
+				0693AEB324F3219100908EC6 /* Assets.xcassets */,
+				0693AEB524F3219100908EC6 /* LaunchScreen.storyboard */,
+				0693AEB824F3219100908EC6 /* Info.plist */,
+				0693AEB024F3219000908EC6 /* EmilyAudioApp.xcdatamodeld */,
+			);
+			path = EmilyAudioApp;
+			sourceTree = "<group>";
+		};
+		0693AEC024F3219100908EC6 /* EmilyAudioAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0693AEC124F3219100908EC6 /* EmilyAudioAppTests.swift */,
+				0693AEC324F3219100908EC6 /* Info.plist */,
+			);
+			path = EmilyAudioAppTests;
+			sourceTree = "<group>";
+		};
+		0693AECB24F3219100908EC6 /* EmilyAudioAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0693AECC24F3219100908EC6 /* EmilyAudioAppUITests.swift */,
+				0693AECE24F3219100908EC6 /* Info.plist */,
+			);
+			path = EmilyAudioAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0693AEA324F3219000908EC6 /* EmilyAudioApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0693AED124F3219100908EC6 /* Build configuration list for PBXNativeTarget "EmilyAudioApp" */;
+			buildPhases = (
+				0693AEA024F3219000908EC6 /* Sources */,
+				0693AEA124F3219000908EC6 /* Frameworks */,
+				0693AEA224F3219000908EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmilyAudioApp;
+			productName = EmilyAudioApp;
+			productReference = 0693AEA424F3219000908EC6 /* EmilyAudioApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0693AEBC24F3219100908EC6 /* EmilyAudioAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0693AED424F3219100908EC6 /* Build configuration list for PBXNativeTarget "EmilyAudioAppTests" */;
+			buildPhases = (
+				0693AEB924F3219100908EC6 /* Sources */,
+				0693AEBA24F3219100908EC6 /* Frameworks */,
+				0693AEBB24F3219100908EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0693AEBF24F3219100908EC6 /* PBXTargetDependency */,
+			);
+			name = EmilyAudioAppTests;
+			productName = EmilyAudioAppTests;
+			productReference = 0693AEBD24F3219100908EC6 /* EmilyAudioAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0693AEC724F3219100908EC6 /* EmilyAudioAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0693AED724F3219100908EC6 /* Build configuration list for PBXNativeTarget "EmilyAudioAppUITests" */;
+			buildPhases = (
+				0693AEC424F3219100908EC6 /* Sources */,
+				0693AEC524F3219100908EC6 /* Frameworks */,
+				0693AEC624F3219100908EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0693AECA24F3219100908EC6 /* PBXTargetDependency */,
+			);
+			name = EmilyAudioAppUITests;
+			productName = EmilyAudioAppUITests;
+			productReference = 0693AEC824F3219100908EC6 /* EmilyAudioAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0693AE9C24F3219000908EC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Emily Gutierrez";
+				TargetAttributes = {
+					0693AEA324F3219000908EC6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0693AEBC24F3219100908EC6 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0693AEA324F3219000908EC6;
+					};
+					0693AEC724F3219100908EC6 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0693AEA324F3219000908EC6;
+					};
+				};
+			};
+			buildConfigurationList = 0693AE9F24F3219000908EC6 /* Build configuration list for PBXProject "EmilyAudioApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0693AE9B24F3219000908EC6;
+			productRefGroup = 0693AEA524F3219000908EC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0693AEA324F3219000908EC6 /* EmilyAudioApp */,
+				0693AEBC24F3219100908EC6 /* EmilyAudioAppTests */,
+				0693AEC724F3219100908EC6 /* EmilyAudioAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0693AEA224F3219000908EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0693AEB724F3219100908EC6 /* LaunchScreen.storyboard in Resources */,
+				0693AEDD24F3260600908EC6 /* open.spotify.com:episode:6smn0qj891TrZlsKJqtNJd.webloc in Resources */,
+				0693AEB424F3219100908EC6 /* Assets.xcassets in Resources */,
+				0693AEAF24F3219000908EC6 /* Main.storyboard in Resources */,
+				0693AEDB24F321AD00908EC6 /* download.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0693AEBB24F3219100908EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0693AEC624F3219100908EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0693AEA024F3219000908EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0693AEAC24F3219000908EC6 /* ViewController.swift in Sources */,
+				0693AEB224F3219000908EC6 /* EmilyAudioApp.xcdatamodeld in Sources */,
+				0693AEA824F3219000908EC6 /* AppDelegate.swift in Sources */,
+				0693AEAA24F3219000908EC6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0693AEB924F3219100908EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0693AEC224F3219100908EC6 /* EmilyAudioAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0693AEC424F3219100908EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0693AECD24F3219100908EC6 /* EmilyAudioAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0693AEBF24F3219100908EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0693AEA324F3219000908EC6 /* EmilyAudioApp */;
+			targetProxy = 0693AEBE24F3219100908EC6 /* PBXContainerItemProxy */;
+		};
+		0693AECA24F3219100908EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0693AEA324F3219000908EC6 /* EmilyAudioApp */;
+			targetProxy = 0693AEC924F3219100908EC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0693AEAD24F3219000908EC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0693AEAE24F3219000908EC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0693AEB524F3219100908EC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0693AEB624F3219100908EC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0693AECF24F3219100908EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0693AED024F3219100908EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0693AED224F3219100908EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmilyAudioApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bookcomic.EmilyAudioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0693AED324F3219100908EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmilyAudioApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bookcomic.EmilyAudioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0693AED524F3219100908EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmilyAudioAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bookcomic.EmilyAudioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmilyAudioApp.app/EmilyAudioApp";
+			};
+			name = Debug;
+		};
+		0693AED624F3219100908EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmilyAudioAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bookcomic.EmilyAudioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmilyAudioApp.app/EmilyAudioApp";
+			};
+			name = Release;
+		};
+		0693AED824F3219100908EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmilyAudioAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bookcomic.EmilyAudioAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmilyAudioApp;
+			};
+			name = Debug;
+		};
+		0693AED924F3219100908EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmilyAudioAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bookcomic.EmilyAudioAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmilyAudioApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0693AE9F24F3219000908EC6 /* Build configuration list for PBXProject "EmilyAudioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0693AECF24F3219100908EC6 /* Debug */,
+				0693AED024F3219100908EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0693AED124F3219100908EC6 /* Build configuration list for PBXNativeTarget "EmilyAudioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0693AED224F3219100908EC6 /* Debug */,
+				0693AED324F3219100908EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0693AED424F3219100908EC6 /* Build configuration list for PBXNativeTarget "EmilyAudioAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0693AED524F3219100908EC6 /* Debug */,
+				0693AED624F3219100908EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0693AED724F3219100908EC6 /* Build configuration list for PBXNativeTarget "EmilyAudioAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0693AED824F3219100908EC6 /* Debug */,
+				0693AED924F3219100908EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0693AEB024F3219000908EC6 /* EmilyAudioApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0693AEB124F3219000908EC6 /* EmilyAudioApp.xcdatamodel */,
+			);
+			currentVersion = 0693AEB124F3219000908EC6 /* EmilyAudioApp.xcdatamodel */;
+			path = EmilyAudioApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0693AE9C24F3219000908EC6 /* Project object */;
+}
